@@ -7,6 +7,7 @@
     --DarkGray: hsl(0, 0%, 48%);
     --ModerateCyan: hsl(176, 50%, 47%);
     --DarkCyan: hsl(176, 72%, 28%);
+    --Background: hsl(0, 0%, 98%);
 }
 
 html {
@@ -22,7 +23,13 @@ header {
     height: 12rem;
 }
 
+main{
+    background-color: #EEE6E5;
+    padding-bottom: 3rem;
+}
+
 .firstCard{
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
     margin: 0 auto;
@@ -30,7 +37,24 @@ header {
     align-items: center;
     width: 80%;
     margin-bottom: 3rem;
+    padding: 2rem;
+    position: relative;
+    top: -35px;
+    border-radius: 10px;
     border: 1px solid black;
+    background-color: white;
+
+}
+
+
+
+.firstCard__img{
+    position: relative;
+    top: -46px;
+}
+
+.firstCard__title h2 {
+    font-size: 2rem;
 }
 
 .firstCard__final{
@@ -44,6 +68,15 @@ header {
 
 .firstCard__final-btn {
     margin: auto 0;
+}
+
+.btn-backThisProject{
+    height: 100%;    
+}
+
+.imgBookmark{
+    height: 40%;
+    margin-top: 2.6rem;
 }
 
 .btn{
@@ -62,6 +95,7 @@ header {
     width: 80%;
     margin: 0 auto;
     border: 1px solid black;
+    background-color: white;
 }
 
 .containerAbout__text-parraf {
@@ -77,6 +111,7 @@ header {
     border-radius: 6px;
     box-sizing: border-box;
     padding: 1.5rem;
+    background-color: white;
 }
 
 .card{
