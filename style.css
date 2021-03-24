@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@500&display=swap');
+:root{
+    font-weight: 500;
+    font-size: 62.5%;
+    font-family: 'Commissioner', sans-serif;
+    --Black: hsl(0, 0%, 0%);
+    --DarkGray: hsl(0, 0%, 48%);
+    --ModerateCyan: hsl(176, 50%, 47%);
+    --DarkCyan: hsl(176, 72%, 28%);
+}
+
+html {
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url(/images/image-hero-mobile.jpg);
+    height: 12rem;
+}
+
+.firstCard{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+    width: 80%;
+    margin-bottom: 3rem;
+    border: 1px solid black;
+}
+
+.firstCard__final{
+    display: flex;
+    flex-direction: row;
+}
+
+.firstCard__final-img{
+    margin-left: 2rem;
+}
+
+.firstCard__final-btn {
+    margin: auto 0;
+}
+
+.btn{
+    border-radius: 16px;
+    padding: 0.8rem 2rem;
+    background-color: var(--ModerateCyan);
+    color: white;
+    text-decoration: none;
+    border: none;
+}
+
+.secondCard{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+.containerAbout__text-parraf {
+    margin-bottom: 3rem;
+}
+
+.containerAbout {
+    margin: 3rem auto;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    border: 1px solid black;
+    border-radius: 6px;
+    box-sizing: border-box;
+    padding: 1.5rem;
+}
+
+.card{
+    border: 1px solid black;
+    border-radius: 6px;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+
+.card__secondTitle {
+    color:hsl(176, 50%, 47%);
+}
+.card__number {
+    display: flex;
+    flex-direction: row;
+    padding: 1.5rem 0;
+}
+
+.card__number div {
+    margin: 0 0.3rem;
+}
+.card__number-bold{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+
+
